@@ -1,0 +1,83 @@
+body{
+    margin:0 auto;
+    font-family:"Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:13px;
+}
+
+.container{
+           height:100vh;
+           display:flex;
+}
+
+.left{
+      height:100%;
+      width:63%;
+      min-width: 0px;
+      background-image:url("../pic/radio333.jpg");
+      background-repeat:no-repeat;
+      background-size:cover;
+}
+
+.right{
+       height:100%;
+       width:37%;
+       min-width: 300px;
+}
+
+.right_top{
+           height:30%;
+}
+
+.right_middle1{
+               height:40%;
+}
+
+.right_middle2{
+               height:10%;
+               display:flex;
+}
+
+.right_middle2_left{
+                    height:100%;
+                    width:50%;
+                    padding-left:23%;
+}
+
+.right_middle2_right{
+                    height:100%;
+                    width:50%;
+                    padding-left:6%;
+}
+
+.right_bottom{
+              text-align:center;
+}
+
+.input{
+      width: 70%;
+      height: 40px;
+      margin:0 auto;
+      border: 1px solid grey;
+      margin-left:15%;
+      margin-top:20px;
+}
+
+.submit{
+        width: 70%;
+        height: 40px;
+        margin-left:15%;
+        margin-top:20px;
+        border:none;
+        border-radius:20px;
+        background-color:#ffcd00;
+}
+.submit:hover{
+    color: white;
+    background-color: #ffae00;
+}
+
+.alert{
+       color:red;
+       text-align:center;
+       margin-top: 20px;
+}

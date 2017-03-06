@@ -1,0 +1,80 @@
+
+body{
+    margin:0 auto;
+    font-family:"Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:13px;
+}
+
+.container{
+            background-image:url("../pic/first_login_background.png");
+            background-size:100vw 100vh;
+            height:100vh;
+}
+
+.upper_margin{
+              height:15vh;
+}
+
+.upper_margin_forgotten_password{
+                                 height:33vh;
+}
+
+.registration{
+              min-width:300px;
+              min-height: 400px;
+              height: 60%;
+              width: 35%;
+              background-color: white;
+              margin:0 auto;
+              border-radius: 40px;
+              filter:alpha(opacity=50);
+              opacity: 0.8;
+}
+
+.registration_forgotten_pass{
+                            min-width:300px;
+                            min-height: 160px;
+                            height: 25%;
+                            width: 35%;
+                            background-color: white;
+                            margin:0 auto;
+                            border-radius: 40px;
+                            filter:alpha(opacity=50);
+                            opacity: 0.8;
+
+}
+
+
+.input{
+       width: 70%;
+       height: 40px;
+       margin:0 auto;
+       border: 1px solid grey;
+       margin-left:15%;
+       margin-top:20px;
+
+}
+
+
+.submit{
+       width: 70%;
+       height: 40px;
+       margin-left:15%;
+       margin-top:20px;
+       border:none;
+       border-radius:20px;
+       background-color:#ffcd00;
+}
+
+.submit:hover{
+    color: white;
+    background-color: #ffae00;
+}
+
+.alert{
+       color:red;
+       text-align:center;
+       margin-top: 10px;
+}
+
+

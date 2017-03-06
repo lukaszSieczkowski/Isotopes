@@ -1,0 +1,123 @@
+
+body {
+     height:100vh;
+     margin:0 auto;
+     font-family:"Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.container{
+           height:100%;
+           margin:0;
+           min-width:600px;
+}
+            
+.header1{
+        background-color:#ffcd00;
+        height:30px;
+        margin:0;
+        text-align:center;
+        font-size:30px;
+        font-weight:bold;
+        padding:20px;
+}
+
+.header2{
+        height:15px;
+        margin:0;
+        text-align:left;
+        font-size:13px;
+        padding:10px;
+        font-weight:700;
+        margin-left:20px;
+}
+
+.mainBody{
+           height:calc(100% - 127px);
+}
+
+.fotter{
+        background-color:#ffcd00;
+        height:20px;
+        text-align:center;
+        font-size:12px;
+        padding-top:2px;
+}
+
+.left_column{
+             margin:0;
+             width:200px;
+             height:100%;
+             float:left;
+              }
+.right_column{
+              height:100%;
+              float:left;
+              width:calc(100% - 200px);
+              min-width:400px;
+              margin:0 auto;
+}
+
+.submit{
+       width: 70%;
+       height: 40px;
+       margin-left:15%;
+       margin-top:7vh;
+       border:none;
+       border-radius:20px;
+       background-color:#ffcd00;
+}
+
+
+.submit1{
+        width: 25%;
+        height: 20px;
+        margin-top:10px;
+        border:none;
+        border-radius:20px;
+        background-color:#ffcd00;
+}
+
+.submit:hover{
+    color: white;
+    background-color: #ffae00;
+}
+
+.submit1:hover{
+    color: white;
+    background-color: #ffae00;
+}
+table{
+     border-collapse: collapse;
+     width: 75%;
+     margin-left:12%;
+     margin-top: 15px;
+     font-size:small;
+}
+
+td {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+.table_header{
+               font-weight:500;
+               background-color:#ddd9d9;
+}
+
+.add_form{
+         position:relative;
+         border:1px solid black;
+         width:45%;
+         margin-left:27.5%;
+         height:150px;
+         font-size:small;
+         padding:10px;
+
+}
+
+.input{
+      margin:6px;
+}
+
+
