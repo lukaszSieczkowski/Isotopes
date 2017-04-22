@@ -1,6 +1,7 @@
-Web aplication for managing industrial isotopes in NDT 
+Web aplication for managing industrial isotopes in Non Destructive Testing Industry
 
-Technologies used;
+Technologies used:
+
 •JSP
 •Java(Servlets as Controllers)
 •MySQL
