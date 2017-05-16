@@ -8,4 +8,6 @@ Technologies used:
 
 •MySQL
 
+•JDBC
+
 Application allow to storage industrial  isotopes like Iridum, Selenium, Cobalt and Ytterbium and calculate activity for current day.
